@@ -6,7 +6,7 @@
 .grid > div {
   background: #734;
   padding: 1.5rem;
-  border-radius: 0em;
+  border-radius: 5px;
 }
 body {
   margin: 1em;
