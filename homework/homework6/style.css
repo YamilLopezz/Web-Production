@@ -4,7 +4,7 @@
   grid-gap: 200px;
 }
 .grid > div {
-  background: lightgrey;
+  background: #734;
   padding: 1.5rem;
   border-radius: 0em;
 }
