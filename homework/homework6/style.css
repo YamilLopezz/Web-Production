@@ -1,5 +1,18 @@
-  .wrapper {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 400px 400px 400px ;
-    grid-template-rows: 400px 400px 400px;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 200px;
+}
+.grid > div {
+  background: lightgrey;
+  padding: 1.5rem;
+  border-radius: 0em;
+}
+body {
+  margin: 1em;
+  font: 2em;
+  font-family: 'Times New Roman', sans-serif;
+  background-image: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
