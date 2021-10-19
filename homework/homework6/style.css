@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 100px;
+  grid-gap: 50px;
 }
 .grid > div {
   background: #734;
