@@ -13,11 +13,11 @@
   color: #444;
 }
 .d{
-  grid-colum: 500px 500px;
+  grid-colum: col/span 2;
   grid-row: row 2;
   display: grid;
   grid-gap: 10px;
-  grid-template-colums: 10px 10px;
+  grid-template-colums: 1fr 1fr;
 }
 .e{
   grid-column:1/3;
