@@ -1,1 +1,11 @@
-
+body {
+  background-image: url("images/backgroundimage5.gif");
+  font-family:cursive;
+  font-size:2em;
+  display: block;
+  margin: 8px;
+  background-size:contain;
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  background-position:top;
+  color:white;
