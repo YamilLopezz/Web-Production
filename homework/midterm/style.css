@@ -1,6 +1,7 @@
 body {
   background-image: url("../../images/cityg.jpg");
   font-family:cursive;
+  font-size:2em;
   background-size:contain;
   background-repeat:repeat-x;
   background-attachment:fixed;
