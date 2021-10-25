@@ -5,8 +5,6 @@ body {
   display: block;
   margin: 8px;
   background-size:contain;
-  background-repeat:repeat-x;
   background-attachment:fixed;
   background-position:top;
-  color:white;
 }
