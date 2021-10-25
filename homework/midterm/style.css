@@ -1,5 +1,5 @@
 body {
-  background-image: img src="../../images/cityg.jpg";
+  background-image: url("../../images/cityg.jpg");
   font-family:cursive;
   font-size:2em;
   display: block;
@@ -9,3 +9,4 @@ body {
   background-attachment:fixed;
   background-position:top;
   color:white;
+}
