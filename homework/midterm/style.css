@@ -4,6 +4,7 @@ body {
   display: block;
   margin: 8px;
   background-repeat:repeat-x;
+  background-size:contain;
   background-attachment:fixed;
   background-position:top;
   color:red;
