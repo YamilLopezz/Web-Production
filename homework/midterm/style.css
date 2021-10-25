@@ -13,6 +13,7 @@ body {
   background-image: url("../../images/back1.jpg");
   background-color: #cccccc;
   height: 640px;
+  width: 1280px; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
