@@ -1,4 +1,5 @@
 body {
   background-image: url("../../images/cityg.jpg");
   background-size:contain;
+  background-repeat:repeat-x;
 }
