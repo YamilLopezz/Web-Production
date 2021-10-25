@@ -3,4 +3,5 @@ body {
   background-size:contain;
   background-repeat:repeat-x;
   background-attachment:fixed;
+  background-position:top;
 }
