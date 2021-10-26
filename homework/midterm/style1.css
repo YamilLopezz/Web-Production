@@ -14,8 +14,15 @@
 .item + .item { 
   margin-left: 2%; 
 }
-.h1{
-      font-family: 'synthemesc', cursive;
-      text-align: center;
-      color: black;
-    }
+.container1 {
+  display: flex;
+}
+
+.item1 {
+  flex-grow: 1;
+  height: 100px;
+}
+
+.item + .item {
+  margin-left: 2%;
+}
