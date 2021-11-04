@@ -34,18 +34,11 @@
     background-color: red;
     animation-name: example2;
     animation-duration: 4s;
-    animation-iteration-count: 3; /* infinite */
+    animation-iteration-count: 3;
+    transform: rotateX(45deg);/* infinite */
+
 }
-		#box02 {
-      width: 400px;
-      height: 400px;
-      -webkit-transition: width 2s, height 4s;
-      transition: width 2s, height 4s;
-	  }
-		#box02:hover {
-      width: 800px;
-      height: 800px;
-		}
+
 /* The animation code */
 @keyframes example3 {
     0%   {background-color:red; left:0px; top:0px;}
@@ -70,7 +63,7 @@
 <body>
 <div class="box1"></div>
 
-<div id="02"></div>
+<div class="box2"></div>
 
 <div class="box3"></div>
 </body>
