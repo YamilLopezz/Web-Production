@@ -38,6 +38,19 @@
     transform: rotateX(45deg);/* infinite */
 
 }
+		#rocket{
+  position: relative;
+  margin: 20px 500px;
+  transition: transform 1s ease;
+}
+
+#rocket:hover {
+  transform: translate(-320px, 0px) scale(0.8) ;
+}
+
+#rocket:active {
+  transform: rotate(-26deg) skew(15deg) scale(0.6);
+}
 
 /* The animation code */
 @keyframes example3 {
@@ -63,7 +76,7 @@
 <body>
 <div class="box1"></div>
 
-<div class="box2"></div>
+<div class="box2" id="rocket"></div>
 
 <div class="box3"></div>
 </body>
