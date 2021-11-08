@@ -25,7 +25,7 @@ body {
   background: #000 url(https://cssanimation.rocks/demo/starwars/images/bg.jpg);
 }
 .starwars-demo {
-  height: 30em;
+  height: 20em;
   left: 70%;
   position: absolute;
   top: 60%;
