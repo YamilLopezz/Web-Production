@@ -26,7 +26,7 @@ body {
 }
 .starwars-demo {
   height: 20em;
-  left: 100%;
+  left: 75%;
   position: absolute;
   top: 53%;
   transform: translate(-50%, -50%);
