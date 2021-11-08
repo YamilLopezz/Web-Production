@@ -25,12 +25,12 @@ body {
   background: #000 url(https://cssanimation.rocks/demo/starwars/images/bg.jpg);
 }
 .starwars-demo {
-  height: 17em;
+  height: 20em;
   left: 50%;
   position: absolute;
   top: 53%;
   transform: translate(-50%, -50%);
-  width: 34em;
+  width: 10em;
 }
 img {
   width: 100%;
