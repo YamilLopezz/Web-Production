@@ -14,12 +14,21 @@
 <body>
 	<p id="output"> Hello World!</p>
 	<button type="button" id="blue">Blue</button>
+	<button type="button" id="bigger">Bigger</button>
 
 
 
 
 <script>
+let a;
+let size;
+size = 30;
+	a = document.getElementbyId("output");
+	document.getElementById("blue").addEventListener("click",function(){
 	
+		output.style.color="blue";
+		output.style.fontSize= size + "px";
+	});
     
 </script>
 </body>
