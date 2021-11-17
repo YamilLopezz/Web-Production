@@ -1,35 +1,53 @@
 <html>
-<head>
-	<style>
-		#output {
-			color: pink;
-		}
-		#output: hover {
-			color: black;
-		}
-	</style>
-	
-
-</head>
-<body>
-	<p id="output"> Hello World!</p>
-	<button type="button" id="blue">Blue</button>
-	<button type="button" id="bigger">Bigger</button>
-
-
-
-
-<script>
-let a;
-let size;
-size = 30;
-	a = document.getElementbyId("output");
-	document.getElementById("blue").addEventListener("click",function(){
-	
-		output.style.color="blue";
-		output.style.fontSize= size + "px";
-	});
+  <head>
+    <style>
+    #myP{
     
-</script>
-</body>
+    color: green;
+    
+    }
+      
+    #myP:hover{
+    	
+      color: red;
+    	
+    }
+    
+    </style>
+  </head>
+  
+  <body>
+    
+    <p id="myP">JavaScript!</p>
+    <button type="button" id="orange">Orange</button> 
+    <button type="button" id="75px">75px</button>
+    <script>
+      
+      
+let b1;
+let size;
+size = 80;
+      
+b1 = document.getElementById("myP");
+      document.getElementById("orange").addEventListener("click",function(){
+        
+        size = size + 1;
+        
+   myP.style.color="orange"; 
+   //myP.style.fontSize= 200 +"px"; 
+     myP.style.fontSize= size +"px";
+      });
+      
+      document.getElementById("75px").addEventListener("click",function(){
+        
+        size = size - 1;
+   myP.style.color="#1ECBE1";
+   //myP.style.fontSize= 75 +"px";  
+        
+         myP.style.fontSize= size +"px";  
+      });
+    </script>
+     
+ </body>
+  
 </html>
