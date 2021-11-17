@@ -1,15 +1,15 @@
 <html>
   <head>
     <style>
-    #myP{
+    #output{
     
-    color: green;
+    color: pink;
     
     }
       
-    #myP:hover{
+    #output:hover{
     	
-      color: red;
+      color: black;
     	
     }
     
@@ -18,31 +18,29 @@
   
   <body>
     
-    <p id="myP">JavaScript!</p>
-    <button type="button" id="orange">Orange</button> 
-    <button type="button" id="75px">75px</button>
+    <p id="output">Hello World</p>
+    <button type="button" id="blue">Blue</button> 
+    <button type="button" id="Bigger">Big</button>
     <script>
       
       
-let b1;
+let a;
 let size;
-size = 80;
+size = 30;
       
-b1 = document.getElementById("myP");
-      document.getElementById("orange").addEventListener("click",function(){
+a = document.getElementById("output");
+      document.getElementById("blue").addEventListener("click",function(){
         
         size = size + 1;
         
-   myP.style.color="orange"; 
-   //myP.style.fontSize= 200 +"px"; 
+   myP.style.color="blue";  
      myP.style.fontSize= size +"px";
       });
       
       document.getElementById("75px").addEventListener("click",function(){
         
         size = size - 1;
-   myP.style.color="#1ECBE1";
-   //myP.style.fontSize= 75 +"px";  
+   myP.style.color="red";
         
          myP.style.fontSize= size +"px";  
       });
