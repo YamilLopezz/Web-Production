@@ -30,5 +30,5 @@ sentence += ' . They can also  ' + verbpt;
 sentence += ' better than a human. Some computers are  ' + part;
 sentence += ' . Others have a/an  ' + adjective;
 sentence += ' screen that shows all kinds of ' + nounp;
-sentence += ' and ' + adj + 'figure.</h2>';
+sentence += ' and ' + adj + ' figure.</h2>';
 document.write(sentence);
