@@ -37,7 +37,7 @@
   top: 20vh;
   left: 5vh;
 }
-#button1{
+#another{
   border: 5px solid #FFAB33;
   width: 200px;
   text-align: center;
@@ -48,7 +48,7 @@
   background: pink;
 }
 
-#button1:hover{
+#another:hover{
   background: #DFF30B;
 }
 
