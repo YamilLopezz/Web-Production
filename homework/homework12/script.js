@@ -7,6 +7,6 @@ button.addEventListener('click', ()=>{
   msg.classList.toggle('reveal');
 })
 
-button.addEventListener('click', ()=>{
-  msg.classList.toggle('reveal1');
+button1.addEventListener('click', ()=>{
+  msg1.classList.toggle('reveal1');
 })
