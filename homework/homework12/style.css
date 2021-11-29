@@ -1,6 +1,7 @@
 .wrapper{
   position: relative;
   top: 20vh;
+  left: 40vh;
 }
 #button{
   border: 5px solid #FFAB33;
