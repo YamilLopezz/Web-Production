@@ -8,5 +8,5 @@ button.addEventListener('click', ()=>{
 })
 
 second.addEventListener('click', ()=>{
-  message.classList.toggle('reveal1');
+  message.classList.toggle('reveal');
 })
