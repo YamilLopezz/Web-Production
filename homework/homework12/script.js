@@ -1,12 +1,12 @@
-let button = document.querySelector('#button');
-let msg = document.querySelector('#message');
+let press = document.querySelector('#button');
+let text = document.querySelector('#message');
 
 button.addEventListener('click', ()=>{
   msg.classList.toggle('reveal');
 })
 
-let press = document.querySelector('#another');
-let text = document.querySelector('#message1');
+let pres = document.querySelector('#another');
+let tex = document.querySelector('#message1');
 
 press.addEventListener('click', ()=>{
   text.classList.toggle('reveal');
