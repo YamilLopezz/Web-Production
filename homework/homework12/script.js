@@ -9,5 +9,5 @@ let second = document.querySelector('#another');
 let message = document.querySelector('#message1');
 
 second.addEventListener('click', function(){
-   message.classList.toggle('reveal1');
+   message.classList.toggle('reveal');
 })
