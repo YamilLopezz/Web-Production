@@ -4,9 +4,3 @@ let msg = document.querySelector('#message');
 button.addEventListener('click', ()=>{
   msg.classList.toggle('reveal');
 })
-
-let second = document.querySelector('#another');
-let message = document.querySelector('#message1');
-second.addEventListener('click', ()=>{
-  messagw.classList.toggle('reveal1');
-})
