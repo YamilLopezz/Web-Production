@@ -2,7 +2,7 @@ let button = document.querySelector('#another');
 let msg = document.querySelector('#message1');
 
 button.addEventListener('click', ()=>{
-  msg.classList.toggle('reveal1');
+  msg.classList.toggle('reveal');
 })
 
 let second = document.querySelector('#another');
