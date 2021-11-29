@@ -31,3 +31,37 @@
 .reveal{
   visibility: visible;
 }
+
+.wrapper1{
+  position: relative;
+  top: 20vh;
+  left: 5vh;
+}
+#button1{
+  border: 5px solid #FFAB33;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: auto;
+  background: pink;
+}
+
+#button1:hover{
+  background: #DFF30B;
+}
+
+#message1{
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hide1{
+  visibility: hidden;
+}
+
+.reveal1{
+  visibility: visible;
+}
