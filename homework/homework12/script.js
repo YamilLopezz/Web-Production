@@ -5,9 +5,9 @@ button.addEventListener('click', ()=>{
   msg.classList.toggle('reveal');
 })
 
-let button = document.querySelector('#another');
-let msg = document.querySelector('#message1');
+let press = document.querySelector('#another');
+let text = document.querySelector('#message1');
 
-button.addEventListener('click', ()=>{
-  msg.classList.toggle('reveal');
+press.addEventListener('click', ()=>{
+  text.classList.toggle('reveal');
 })
