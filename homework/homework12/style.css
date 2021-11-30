@@ -65,3 +65,37 @@
 .reveal1{
   visibility: visible;
 }
+
+.wrapper2{
+  position: relative;
+  top: 20vh;
+  left: 5vh;
+}
+#another1{
+  border: 5px solid #FFAB33;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: auto;
+  background: pink;
+}
+
+#another1:hover{
+  background: #DFF30B;
+}
+
+#message2{
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hide2{
+  visibility: hidden;
+}
+
+.reveal2{
+  visibility: visible;
+}
