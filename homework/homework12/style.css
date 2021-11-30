@@ -34,8 +34,8 @@
 
 .wrapper1{
   position: relative;
-  top: 20vh;
-  left: 5vh;
+  top: 10vh;
+  right: 15vh;
 }
 #another{
   border: 5px solid #FFAB33;
