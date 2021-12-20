@@ -1,1 +1,19 @@
-
+body,html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+.section_top{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-image: url("https://i.pinimg.com/originals/7e/d8/6e/7ed86e3f6d18c6f4a7c77cd1a0abf526.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justidy-content: center;
+}
