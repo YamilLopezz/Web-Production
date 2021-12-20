@@ -36,3 +36,29 @@ body,html{
   background: #034e88;
   color: #fff;
 }
+@keyframes change{
+  0%
+  {
+    background-image: url("../../images/barcelona.jpg");
+  }
+  20%
+  {
+    background-image: url("../../images/bayern.jpg");
+  }
+  40%
+  {
+    background-image: url("../../images/chelsea.jpg");
+  }
+  60%
+  {
+    background-image: url("../../images/milan.jpg");
+  }
+  80%
+  {
+    background-image: url("../../images/manu.jpg");
+  }
+  100%
+  {
+    background-image: url("../../images/liverpool.jpg");
+  }
+}
