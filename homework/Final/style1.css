@@ -80,7 +80,7 @@ section.et-hero-tabs{
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   border-style:solid;
-  border-color:white;
+  border-color:blue;
 }
 
 .et-hero-tab-slider {
