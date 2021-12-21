@@ -128,7 +128,6 @@ section.et-hero-tabs{
   background-image: url("https://cloudfront.ligalive.net/wp-content/uploads/2021/12/19113257/UEFA-CHAMPIONS-LEAGUE-1000x600.jpg");
   background-repeat:no-repeat;
   background-size:cover;
-  box-shadow: 6px 6px 3px black;
 }
 .et-hero-tabs,
 .et-slide {
@@ -141,7 +140,7 @@ section.et-hero-tabs{
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-  height: 80vh;
+  height: 75vh;
   position: relative;
   background: #eee;
   text-align: center;
