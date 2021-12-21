@@ -125,9 +125,9 @@ a {
   text-decoration: none;
 }
 section.et-hero-tabs{
-	background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701909509.jpg");
+	background-image: url("https://cloudfront.ligalive.net/wp-content/uploads/2021/12/19113257/UEFA-CHAMPIONS-LEAGUE-1000x600.jpg");
   background-repeat:no-repeat;
-  background-size:cover;
+  background-size:fill;
 }
 .et-hero-tabs,
 .et-slide {
