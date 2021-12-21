@@ -227,15 +227,4 @@ section.et-hero-tabs{
     font-size: 1rem;
   }
 }
-.typewriter h3{
-  overflow: hidden; 
-  white-space: pre; 
-  margin: 0 auto; 
-  letter-spacing: .002em;
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-  justify-content:center;
-  display:flex;
-}
 </style>
