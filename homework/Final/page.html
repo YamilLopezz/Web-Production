@@ -13,10 +13,170 @@
   background-size: cover
   
 }
+      * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
     </style>
   </head>
   <body>
+    
+    <!-- MAIN (Center website) -->
+<div class="main">
 
+<h1>MYLOGO.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
+  <h3>Some Other Work</h3>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+    
+ <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+             <a class="navbar-brand" href="#">Yamil Lopez</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Web-Production <span class="sr-only">(current)</span></a>
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="flex.html">Part 2</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Homework
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../homework1.html">Homework 1</a>
+                        <a class="dropdown-item" href="../homework2.html">Homework 2</a>
+                        <a class="dropdown-item" href="../homework3.html">Homework 3</a>
+                        <a class="dropdown-item" href="../homework4.html">Homework 4</a>
+                        <a class="dropdown-item" href="../homework5.html">Homework 5</a>
+                        <a class="dropdown-item" href="../homework6/homework6.html">Homework 6</a>
+                        <a class="dropdown-item" href="../homework10.html">homework 10</a>
+                        <a class="dropdown-item" href="../homework11/homework11.html">homework 11</a>
+                        <a class="dropdown-item" href="../homework12/homework12.html">homework 12</a>
+                        <a class="dropdown-item" href="../Final/final.html">Final</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../../index.html">Classwork 1&2</a>
+                        <a class="dropdown-item" href="../classwork3.html">Classwork 3</a>
+                        <a class="dropdown-item" href="../classwork4.html">Classwork 4</a>
+                        <a class="dropdown-item" href="../classwork5.html">Classwork 5</a>
+                        <a class="dropdown-item" href="../classwork7/classwork7.html">Classwork 7</a>
+                        <a class="dropdown-item" href="../css3Animations00.html">Classwork 9</a>
+                        <a class="dropdown-item" href="../classwork10.html">Classwork 10</a> 
+                        <a class="dropdown-item" href="../classwork11.html">Classwork 11</a> 
+                      </div>
+                    </li>             
+                  </ul>    
+            </nav>
+      </div>
+    
   <section class="et-hero-tabs">
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#tab-es6">About</a>
