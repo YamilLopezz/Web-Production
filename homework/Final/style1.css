@@ -92,7 +92,7 @@ section.et-hero-tabs{
   -webkit-transition: left 0.3s ease;
   transition: left 0.3s ease;
 }
-.typewriter h3{
+.font h3{
   overflow: hidden; 
   white-space: pre; 
   margin: 0 auto; 
