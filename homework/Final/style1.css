@@ -238,12 +238,4 @@ section.et-hero-tabs{
   justify-content:center;
   display:flex;
 }
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  100% { border-color: blue; }
-}
 </style>
